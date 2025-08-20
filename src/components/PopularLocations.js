@@ -1,8 +1,9 @@
+import { Link } from "react-router-dom";  // Add this
 import React, { useState } from 'react';
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa';
 import './PopularLocations.css';
 
-const locations = [
+const featuredLocations = [
   {
     name: "Paris",
     image: "/images/paris.jpg",
@@ -31,11 +32,11 @@ function PopularLocations() {
   };
 
   return (
-    <section className="popular-section py-5">
+    <section className="popular-section py-5"  style={{ backgroundColor: "#eaf0f6" }}>
       <div className="container">
         <h2 className="section-title text-center mb-5">Popular Locations</h2>
         <div className="row g-4">
-          {locations.map((loc, index) => (
+          {featuredLocations.map((loc, index) => (
             <div className="col-md-4" key={index}>
               <div className="card h-100 shadow location-card">
                 <img src={loc.image} className="card-img-top" alt={loc.name} />
@@ -60,6 +61,12 @@ function PopularLocations() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-4">
+          <Link to="/locations" className="btn btn-dark px-4 py-2 rounded-pill">
+            Explore More Locations →
+          </Link>
         </div>
       </div>
     </section>
