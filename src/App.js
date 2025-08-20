@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import PopularLocations from './components/PopularLocations';
 import AllLocations from './components/AllLocations';
+import Adventures from './components/Adventures';
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
           <>
             <Hero />
             <PopularLocations />  
+            <Adventures />
           </>
         } />
         <Route path="/locations" element={<AllLocations />} />
