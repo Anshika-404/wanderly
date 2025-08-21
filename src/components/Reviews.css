@@ -1,0 +1,40 @@
+.reviews-section {
+  background-color: #eaf0f6;
+  padding: 3rem 0;
+}
+
+.reviews-title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-weight: bold;
+  
+}
+
+.review-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.review-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.review-text {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  transition: all 0.3s ease-in-out;
+}
+
+.review-card:hover .review-text {
+  -webkit-line-clamp: unset;
+}

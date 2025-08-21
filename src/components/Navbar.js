@@ -4,7 +4,16 @@ import { Navbar, Nav, Container, Button } from 'react-bootstrap';
 
 const NavigationBar = () => {
   return (
-    <Navbar expand="lg" bg="light" variant="light" sticky="top" className="shadow-sm">
+    <Navbar 
+  expand="lg" 
+  sticky="top" 
+  className="shadow-sm" 
+  style={{ 
+    background: "rgba(255, 255, 255, 0.7)", 
+  }}
+>
+
+
       <Container>
          <img 
             src="/logo.png" 
