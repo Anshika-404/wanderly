@@ -10,6 +10,8 @@ import Adventures from './components/Adventures';
 import Services from './components/Services';
 import Reviews from "./components/Reviews";
 import Footer from './components/Footer';
+import About from "./components/About";
+import Contact from "./components/Contact.js";
 
 function App() {
   return (
@@ -26,6 +28,8 @@ function App() {
           </>
         } />
         <Route path="/locations" element={<AllLocations />} />
+        <Route path="/about" element={<About />} /> 
+        <Route path="/contact" element={<Contact />} /> 
       </Routes>
       <Footer />
       </>

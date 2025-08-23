@@ -1,0 +1,23 @@
+.about-section {
+  background: #eaf0f6;
+}
+
+.about-section h2 {
+    color: #2a5d67;
+}
+.about-section h3 {
+  color: #2a5d67;
+}
+
+.about-section p {
+  line-height: 1.7;
+}
+
+.about-section .card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-section .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}
