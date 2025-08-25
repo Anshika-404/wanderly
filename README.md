@@ -11,3 +11,4 @@ It features a clean UI with a **Hero section, Navbar, Popular Locations, Explore
 - 📍 **All Locations Page** with expanded list of travel destinations  
 - 🎨 Styled with **Tailwind CSS** for a modern look  
 - 🚀 Routing handled by **React Router DOM**  
+--------test 
