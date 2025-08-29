@@ -9,5 +9,5 @@ It features a clean UI with a **Hero section, Navbar, Popular Locations, Explore
 - 🗺️ **Popular Locations** preview with toggle descriptions  
 - ➡️ **"Explore More Locations"** button to view additional destinations  
 - 📍 **All Locations Page** with expanded list of travel destinations  
-- 🎨 Styled with **Tailwind CSS** for a modern look  
+- 🎨 Styled with **Bootstrap** for a modern look  
 - 🚀 Routing handled by **React Router DOM**  
