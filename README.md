@@ -1,6 +1,6 @@
 #  Wanderly
 
-Wanderly is a modern travel-themed web application built with **React** and styled using **Tailwind CSS**.  
+Wanderly is a modern travel-themed web application built with **React** and styled using **Bootstrap**.  
 It features a clean UI with a **Hero section, Navbar, Popular Locations, Explore More Locations, and Footer**.  
 
 ## ✨ Features
@@ -11,4 +11,3 @@ It features a clean UI with a **Hero section, Navbar, Popular Locations, Explore
 - 📍 **All Locations Page** with expanded list of travel destinations  
 - 🎨 Styled with **Tailwind CSS** for a modern look  
 - 🚀 Routing handled by **React Router DOM**  
---------test 
